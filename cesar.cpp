@@ -1,8 +1,13 @@
 #include <iostream>
 
 int main(){
+  char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+  char input[10];
+  std::cin >> input;
 
-  std::cout << "hi";
+
+
+
 
   return 0;
 }
