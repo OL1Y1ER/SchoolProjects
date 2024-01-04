@@ -1,12 +1,19 @@
 #include <iostream>
-
+#include <string>
 int main(){
-  char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-  char input[10];
-  std::cin >> input;
+  
+  string alphabets = "abcdefghijklmnopqrstuvwxyz";
+
+  string str;
+  std::cin >> str;
 
 
+  
+  
+  
 
+  
+  
 
 
   return 0;
