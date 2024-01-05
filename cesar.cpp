@@ -18,8 +18,8 @@ int main(){
     
     for(int j = 0; j<alpha.length(); j++){
       if(input[i] == alpha[j]){
-        std::cout << alpha[(i+change)%alpha.length()];
-        
+        std::cout <<alpha[i]<< ":" << alpha[((i+1)+change)%(alpha.length())] << "||||||" << "i + change: " << i << " | " << (i+j)%alpha.length() << std::endl;
+    
       }
     }
 
