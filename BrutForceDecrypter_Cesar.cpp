@@ -6,6 +6,7 @@ int main(){
     std::string alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,?!_1234567890";
 
     std::string input;
+    std::cout << "Enter Encrypted Text: ";
     std::cin >> input;
 
     int settOff = 0;
